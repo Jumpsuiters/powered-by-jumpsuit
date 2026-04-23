@@ -257,7 +257,7 @@ And we designed it to be that way from day one.
 - When a project wraps, we deliver a case study that tells the full story of how we got there — so you can justify your value and your budget.
 - And we'll set you up for next steps, even if that's not with us. We'll work ourselves out of a job if that's what's best for you.
 
-Jumpsuit is more than a creative agency. We're a future of work consultancy that's been inventing new models, processes, and tools for a decade. We didn't just adopt this way of working — we built it.
+Jumpsuit is more than a creative agency. We're a future of work consultancy that's been inventing new models, processes, and tools for a decade. We didn't just adopt this way of working — we wrote the book on it.
 
 There's a lot of agencies who do the things that we do. But there's no one else who does it like us.`,
 };
