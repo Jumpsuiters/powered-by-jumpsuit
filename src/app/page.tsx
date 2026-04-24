@@ -144,6 +144,7 @@ export default function Home() {
                 "How does your independent model work?",
                 "Tell me about your network",
                 "What makes Jumpsuit different?",
+                "Wait, you've done what?",
               ].map((q) => (
                 <button
                   key={q}
@@ -182,7 +183,7 @@ export default function Home() {
                 }`}
               >
                 {msg.role === "assistant" ? (
-                  <div className="prose prose-sm prose-neutral max-w-none [&_a]:text-jumpsuit-blue [&_a]:underline [&_strong]:text-jumpsuit-teal [&_ul]:list-disc [&_ul]:pl-4 [&_ol]:list-decimal [&_ol]:pl-4 [&_p]:mb-2 [&_p:last-child]:mb-0">
+                  <div className="prose prose-sm prose-neutral max-w-none [&_a]:inline-block [&_a]:px-4 [&_a]:py-2 [&_a]:bg-jumpsuit-orange [&_a]:text-white [&_a]:no-underline [&_a]:rounded-lg [&_a]:font-bold [&_a]:text-sm [&_a]:hover:bg-jumpsuit-red [&_a]:transition-colors [&_a]:mt-2 [&_strong]:text-jumpsuit-teal [&_ul]:list-disc [&_ul]:pl-4 [&_ol]:list-decimal [&_ol]:pl-4 [&_p]:mb-2 [&_p:last-child]:mb-0">
                     <ReactMarkdown>{msg.content}</ReactMarkdown>
                   </div>
                 ) : (
